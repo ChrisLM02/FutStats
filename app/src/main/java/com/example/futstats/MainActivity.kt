@@ -126,13 +126,12 @@ fun setUI() {
             ) {
 
             }
+
+            LazyColumn(Modifier.fillMaxSize(),
+                contentPadding = PaddingValues(8.dp)){
+
+            }
+
         }
-
-
-        LazyColumn(Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(8.dp)){
-
-        }
-
     }
 }
