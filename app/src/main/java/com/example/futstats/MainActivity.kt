@@ -109,7 +109,7 @@ fun setUI() {
                     Text(text = "Buscar equipo...")
                 },
                 leadingIcon = {
-                    Icon(imageVector = Icons.Default.Search, contentDescription = "Sarch Icon")
+                    Icon(imageVector = Icons.Default.Search, contentDescription = "Search Icon")
                 },
                 trailingIcon = {
                     if (active) {
